@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="head file">
+      <UniqueIdentifier>{5d58b0df-4ac2-4ff3-bb60-c0f3f1204c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source file">
+      <UniqueIdentifier>{a05d1546-6df6-401b-9fec-65b65a52ac69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xxhash">
+      <UniqueIdentifier>{61321776-cdb5-422c-b17c-9e6b301b9da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sha256">
+      <UniqueIdentifier>{c30cfb4f-43ab-4daa-aa32-6a5f08303e4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source file\wadSave.cpp">
+      <Filter>source file</Filter>
+    </ClCompile>
+    <ClCompile Include="xxhash\xxhash.c">
+      <Filter>xxhash</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xxhash\xxhash.h">
+      <Filter>xxhash</Filter>
+    </ClInclude>
+    <ClInclude Include="head file\wadStruct.h">
+      <Filter>head file</Filter>
+    </ClInclude>
+    <ClInclude Include="sha256\picosha2.h">
+      <Filter>sha256</Filter>
+    </ClInclude>
+    <ClInclude Include="sha256\picosha2.hpp">
+      <Filter>sha256</Filter>
+    </ClInclude>
+    <ClInclude Include="head file\wadSave.h">
+      <Filter>head file</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source file\wadSave.def">
+      <Filter>source file</Filter>
+    </None>
+  </ItemGroup>
+</Project>

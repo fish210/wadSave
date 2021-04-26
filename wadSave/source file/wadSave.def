@@ -1,0 +1,6 @@
+LIBRARY
+EXPORTS
+fileSearch
+write_EntryData
+write_EntryInfo
+XXH64

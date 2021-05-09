@@ -10,4 +10,3 @@ xxHash Library https://github.com/Cyan4973/xxHash
 sha256 class https://github.com/okdshin/PicoSHA2
 
 源码仅仅是演示功能的实现，实际上还有很多不足之处，我鼓励自己动手，拿去优化
-交流群：905600556

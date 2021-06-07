@@ -1,5 +1,5 @@
 # wadSave
-League of Legends WAD file save<br>
+League of Legends wad file save<br>
 
 core git: https://github.com/fish210<br>
 
